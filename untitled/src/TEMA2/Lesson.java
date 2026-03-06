@@ -1,4 +1,4 @@
-package Pattern1;
+package TEMA2.Pattern1;
 
 public class Lesson {
     static void main() {

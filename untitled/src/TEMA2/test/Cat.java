@@ -1,4 +1,4 @@
-package test;
+package TEMA2.test;
 
 public class Cat {
 

@@ -1,4 +1,4 @@
-package Pattern5;
+package TEMA2.Pattern5;
 
 public class Lesson {
 

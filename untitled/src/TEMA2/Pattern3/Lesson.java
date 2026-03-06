@@ -1,6 +1,4 @@
-package Pattern3;
-
-import java.util.Scanner;
+package TEMA2.Pattern3;
 
 public class Lesson {
     static void main() {

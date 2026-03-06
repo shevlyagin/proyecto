@@ -1,4 +1,4 @@
-package Pattern6_7;
+package TEMA2.Pattern6_7;
 
 import java.util.Scanner;
 
