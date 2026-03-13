@@ -1,4 +1,6 @@
-package PAKETY_STATIC.cinema;
+package PAKETY_STATIC.homework.cinema;
+
+/*
 
 public class Movie {
 
@@ -7,22 +9,15 @@ public class Movie {
     private String director;
     private int duration;
     private double price;
+    private boolean national;
 
-    public static int totalMovies;
-    public static int totalAudience;
-
-    public Movie(String title, String genre, String director, int duration, double price) {
+    public Movie(String title, String genre, String director, int duration, double price, boolean national) {
         this.title = title;
         this.genre = genre;
         this.director = director;
         this.duration = duration;
         this.price = price;
-
-        totalMovies++;
-    }
-
-    public void addAudience(int people){
-        totalAudience++;
+        this.national = national;
     }
 
     public String getTitle() {
@@ -41,20 +36,20 @@ public class Movie {
         this.genre = genre;
     }
 
-    public int getDuration() {
-        return duration;
-    }
-
-    public void setDuration(int duration) {
-        this.duration = duration;
-    }
-
     public String getDirector() {
         return director;
     }
 
     public void setDirector(String director) {
         this.director = director;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
     public double getPrice() {
@@ -65,20 +60,12 @@ public class Movie {
         this.price = price;
     }
 
-    public static int getTotalMovies() {
-        return totalMovies;
+    public boolean isNational() {
+        return national;
     }
 
-    public static void setTotalMovies(int totalMovies) {
-        Movie.totalMovies = totalMovies;
-    }
-
-    public static int getTotalAudience() {
-        return totalAudience;
-    }
-
-    public static void setTotalAudience(int totalAudience) {
-        Movie.totalAudience = totalAudience;
+    public void setNational(boolean national) {
+        this.national = national;
     }
 
     @Override
@@ -89,8 +76,20 @@ public class Movie {
                 ", director='" + director + '\'' +
                 ", duration=" + duration +
                 ", price=" + price +
+                ", national=" + national +
                 '}';
     }
+
+    public void int totalMovies() {
+        return totalMovies++;
+    }
+    public static int totalAudience;
+    public static int nationalMovies;
+    public static String genresMovies;
+    public static int getNationalMovies;
+    getGenreCount(String genre);
 }
+
+ */
 
 

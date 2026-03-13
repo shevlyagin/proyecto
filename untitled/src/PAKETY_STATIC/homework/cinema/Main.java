@@ -1,4 +1,7 @@
-package PAKETY_STATIC.cinema;
+package PAKETY_STATIC.homework.cinema;
+
+/*
+Не закончил это дерьмо
 
 public class Main {
 
@@ -20,3 +23,5 @@ public class Main {
         System.out.println("Всего зрителей: " + Movie.getTotalAudience());
     }
 }
+
+ */
